@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_booking"
+        android:title="action_booking"
+        android:orderInCategory="1">
+
+        <menu>
+            <item android:id="@+id/subaction_add"
+                android:title="subaction_add"
+                android:orderInCategory="1"/>
+
+            <item android:id="@+id/subaction_view_all"
+                android:title="subaction_view_all"
+                android:orderInCategory="2"
+                />
+            <item android:id="@+id/subaction_search"
+                android:title="subaction_search"
+                android:orderInCategory="3"
+                />
+
+        </menu>
+    </item>
+
+    <item android:id="@+id/action_track_my_walk"
+        android:title="walking"
+        android:orderInCategory="1"/>
+    <menu>
+        <item android:id="@+id/subaction_picture"
+            android:title="picture"
+            android:orderInCategory="1"/>
+
+        <item android:id="@+id/subaction_map"
+            android:title="map"
+            android:orderInCategory="2"
+            />
+        <item android:id="@+id/subaction_time_walk"
+            android:title="time_walk"
+            android:orderInCategory="3"
+            />
+
+    </menu>
+
+</menu>

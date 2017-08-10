@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="add_contact"
+        type="id">add_contact</item>
+    <item name="add_contact_layout"
+        type="id">add_layout</item>
+    <item name="timePicker" type="id">time_picker</item>
+    <item name="appointment_type" type="id">appointment</item>
+    <item name="mapid" type="id">map_id</item>
+</resources>

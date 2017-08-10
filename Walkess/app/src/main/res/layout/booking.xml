@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#808fee"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Contact Here"
+        android:id="@+id/button8"
+        android:layout_column="1" />
+
+
+    <TableRow>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/addcontact"
+            android:text="add_contact"
+            android:onClick="addClick"
+            android:id="@+id/buttonAddContact" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="viewContact"
+            android:src="@drawable/view1"
+            android:text="@string/view_contacts"
+            android:id="@+id/buttonViewContact" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/search"
+            android:onClick="searchClick"
+            android:text="@string/search_contact"
+            android:id="@+id/buttonSearchContact"
+            android:layout_gravity="center" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/save1"
+            android:onClick="storageClick"
+            android:text="@string/search_contact"
+            android:id="@+id/storageContact"
+            android:layout_gravity="center" />
+    </TableRow>
+
+    <TableRow>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/update"
+            android:onClick="updateContact"
+            android:text="@string/update_contact"
+            android:id="@+id/buttonUpdateContact"
+            android:layout_gravity="center" />
+
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/delete"
+            android:onClick="deleteContact"
+            android:text="@string/delete_contact"
+            android:id="@+id/buttonDeleteContact"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/deleteDatabase"
+            android:src="@drawable/deletedatabase"
+            android:onClick="databaseContact"
+            android:layout_column="2" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:id="@+id/buttonBack"
+            android:onClick="onClickbuttonBack"
+            android:layout_column="0" />
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#808fee"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/web"
+            android:onClick="onClick"
+            android:src="@drawable/web" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton_pictures"
+            android:src="@drawable/pictures"
+            android:onClick="onClick"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton_sms"
+            android:src="@drawable/sms"
+            android:onClick="onClick"
+            android:layout_gravity="center_horizontal"
+            android:layout_column="2" />
+
+    </TableRow>
+    <TableRow>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton_camera"
+            android:src="@drawable/camera"
+            android:onClick="onClick"
+            android:layout_gravity="center_horizontal" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton_twitter"
+            android:src="@drawable/twitter"
+            android:onClick="onClick"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/phone"
+                android:onClick="onClick"
+                android:src="@drawable/phone"
+            android:layout_column="2" />
+    </TableRow>
+
+
+<TableRow>
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"
+            android:src="@drawable/email"
+            android:layout_gravity="center_horizontal"
+            android:onClick="onClick"/>
+
+    <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/contact"
+            android:src="@drawable/user"
+            android:onClick="onClick"
+            android:layout_gravity="center_horizontal" />
+</TableRow>
+
+</TableLayout>

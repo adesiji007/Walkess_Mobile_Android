@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_booking"
+        android:title="booking_main"
+        android:icon="@drawable/booking"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/action_track_my_walk"
+        android:title="walking_main"
+        android:icon="@drawable/walk"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        />
+
+</menu>

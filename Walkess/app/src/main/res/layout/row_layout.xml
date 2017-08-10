@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="#808fee"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:id="@+id/text_user_name"
+        android:text="Name Here"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_user_address"
+        android:text="Address"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_user_mobile"
+        android:text="Mobile"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="50dp"
+        android:background="#808fee"
+        android:layout_height="41dp"
+        android:id="@+id/text_user_email"
+        android:text="Email"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="80dp"
+        android:background="#808fee"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_user_date"
+        android:text="Date"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="80dp"
+        android:background="#808fee"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_user_time"
+        android:text="Time"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="80dp"
+        android:background="#808fee"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_user_id"
+        android:text="ID"
+        android:textColor="#000000"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#808fee"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton_map"
+                android:src="@drawable/map"
+                android:onClick="onClick"
+                android:layout_gravity="center_horizontal" />
+
+
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton_facebook"
+                android:src="@drawable/facebook"
+                android:onClick="onClick"
+                android:layout_gravity="center_horizontal" />
+
+        </TableRow>
+        <TableRow>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton_time_walk"
+                android:src="@drawable/time_walk"
+                android:onClick="onClick"
+                android:layout_gravity="center_horizontal" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton_working"
+                android:src="@drawable/walkdog1"
+                android:onClick="onClick"
+                android:layout_gravity="center_horizontal" />
+
+
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

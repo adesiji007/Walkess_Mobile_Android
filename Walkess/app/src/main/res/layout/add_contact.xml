@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#808fee"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Users Information Here"
+        android:id="@+id/button6"
+        android:layout_column="1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contact_name"
+        android:layout_below="@+id/deleteContactButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Contact Name"
+        android:layout_marginTop="25dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contact_address"
+        android:layout_below="@+id/deleteContactButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Contact Address"
+        android:layout_marginTop="25dp"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/contact_mobile"
+            android:layout_below="@+id/deleteContactButton"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:hint="Mobile Number"
+            android:layout_marginTop="5dp"/>
+    </TableRow>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:id="@+id/contact_email"
+        android:layout_below="@+id/contact_mobile"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Email Address"
+        android:layout_marginTop="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/contact_staff"
+        android:layout_below="@+id/contact_email"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Staff Responsible For Walking"
+        android:layout_marginTop="5dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/contact_id"
+        android:layout_below="@+id/emailEditText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="ID to Delete"
+        android:layout_marginTop="5dp"
+        android:layout_alignRight="@+id/contactListEditText"
+        android:layout_alignEnd="@+id/contactListEditText"
+        android:layout_column="0"
+        android:layout_span="3" />
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:id="@+id/ButtonDate"
+            android:layout_column="0"
+            android:onClick="date"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:id="@+id/ButtonTime"
+            android:layout_column="1"
+            android:onClick="time"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Appointment Type"
+            android:id="@+id/appointmentType"
+            android:layout_column="2"
+            android:onClick="onClickappointmentType"/>
+    </TableRow>
+
+
+    <TableRow>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:id="@+id/saveContact"
+            android:onClick="saveContact" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:id="@+id/buttonBack"
+            android:layout_gravity="right"
+            android:onClick="addBack"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="appointment"
+            android:id="@+id/appointment"
+            android:layout_gravity="right"
+            android:onClick="addAppointment"/>
+
+    </TableRow>
+
+
+</TableLayout>

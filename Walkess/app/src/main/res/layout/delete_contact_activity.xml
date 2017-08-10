@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#808fee"
+    android:layout_height="match_parent">
+
+
+
+
+    <TableRow android:layout_width="200dp">
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_name"
+            android:layout_below="@+id/deleteContactButton"
+            android:layout_alignParentLeft="true"
+            android:hint="Enter Contact Name"
+            android:layout_marginTop="25dp"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/search"
+            android:id="@+id/searchContact"
+            android:onClick="searchContact"
+            android:layout_column="1" />
+
+
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Delete Contact"
+            android:id="@+id/title_text"
+            android:layout_column="1"
+            android:gravity="center"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:hint="Name Here"
+            android:id="@+id/new_name"
+            android:layout_column="0" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:hint="Address Here"
+            android:id="@+id/display_Address"
+            android:layout_column="0" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:hint="Email Here"
+            android:id="@+id/display_Email"
+            android:layout_column="0" />
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:hint="Mobile Here"
+            android:id="@+id/display_Mobile"
+            android:layout_column="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:hint="Staff Here"
+            android:id="@+id/new_staff"
+            android:layout_column="0" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:hint="Date"
+            android:id="@+id/display_Date"
+            android:layout_column="0" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:hint="Time"
+            android:id="@+id/display_Time"
+            android:layout_column="0" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:hint="Appointment"
+            android:id="@+id/new_appointment"
+            android:layout_column="0" />
+    </TableRow>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:hint="ID"
+        android:id="@+id/display_ID"
+        android:layout_column="0" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete Contact"
+            android:id="@+id/button"
+            android:layout_column="1"
+            android:onClick="deleteContact" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update Contact"
+            android:id="@+id/buttonUpdate"
+            android:layout_column="1"
+            android:onClick="updateContact" />
+
+    </TableRow>
+
+
+</TableLayout>
